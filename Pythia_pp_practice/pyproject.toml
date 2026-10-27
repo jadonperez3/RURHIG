@@ -1,0 +1,19 @@
+[project]
+name = "projecthep"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastjet>=3.5.1.2",
+    "matplotlib>=3.10.8",
+    "numba>=0.63.1",
+    "pandas>=3.0.0",
+    "pyarrow>=23.0.0",
+    "pythia8mc>=8.317.0",
+]
+
+[dependency-groups]
+dev = [
+    "pyqt6>=6.10.2",
+]

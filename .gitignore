@@ -1,0 +1,7 @@
+datasets/
+Figures/
+__pycache__/
+*.pyc
+.venv/
+*.arrow
+*.root
